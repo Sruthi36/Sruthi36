@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int i,j,M_rows,N_columns;
+	printf("Rows:");
+	scanf("%d",&M_rows);
+	printf("Columns:");
+	scanf("%d",&N_columns);
+	
+	for (i=1;i<= M_rows;i++)
+	{
+		for (j=1;j<=N_columns;j++)
+		{
+			printf("* ");
+		}
+		printf("\n");
+	}
+	return 0;
+}
