@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	double a,b,temperory;
+	printf("Enter first number:");
+	scanf("%d",&a);
+	printf("Enter second number:");
+	scanf("%d",&b);
+	temperory = a;
+	a = b;
+	b = temperory;
+	printf("a value is :%d",a);
+	printf("\nb value is :%d",b);
+	return 0;
+}
