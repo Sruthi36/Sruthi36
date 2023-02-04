@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int first_number , second_number , third_number , largest_number;
+	printf("First number:");
+	scanf("%d",&first_number);
+	printf("Second number:");
+	scanf("%d",&second_number);
+	printf("Third number:");
+	scanf("%d",&third_number);
+	
+	largest_number = first_number;
+	if (second_number > largest_number)
+	{
+		largest_number = second_number;
+	}
+	if (third_number > largest_number)
+	{
+		largest_number = third_number;
+	}
+	printf("Largest Number : %d",largest_number);
+}
