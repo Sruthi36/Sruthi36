@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char s[100];
+	int length ;
+	
+	printf("Enter a string:");
+	gets(s);
+	length = strlen(s);
+	printf("Length of %c:%d",s,length);
+	return 0;
+}
