@@ -1,0 +1,20 @@
+#include<stdio.h>
+struct student
+{
+	float mark;
+	float sum ;
+	float average;
+} s1;
+int main()
+{
+	int i;
+	for (i= 1;i<=5;i++)
+	{
+		printf("Enter marks for day%d:",i);
+		scanf("%f",&s1.mark);
+		s1.sum = s1.sum + s1.mark ;
+	}
+	s1.average = s1.sum / 5;
+	printf("Average:%.1f",s1.average);
+	return 0;
+} 
