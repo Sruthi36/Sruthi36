@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+struct student{
+	char give[30];
+	char name[30];
+}s;
+int main()
+{
+	printf("Enter name:");
+	fgets(s.give,sizeof(s.give),stdin);
+	strcpy(s.name,s.give);
+	puts(s.name);
+	return 0;
+}
